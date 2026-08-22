@@ -1,0 +1,134 @@
+html{
+    box-sizing:border-box;
+    --background-color:#F3E5D8;
+    --article-color:#FFFFFF;
+    --prep-color:#FFF7FC;
+    --prep-heading:#7B284F;
+    --font-color:#5F574E;
+    --heading-color:#854632;
+    --border-section:#efefef;
+}
+
+*{
+    box-sizing: inherit;
+}
+
+body{
+    background-color: var(--background-color);
+    padding: 6rem 20rem;
+    position: relative;
+}
+
+img{
+    max-width:100%;
+    height:20rem;
+    border-radius: 1.5rem;
+}
+
+h1{
+    margin: 2rem 0 1rem 0;
+}
+
+h1,h2,h3{
+    font-family:"Young Serif";
+    font-weight:400;
+}
+
+h2{
+    color:var(--heading-color);
+    margin:0.5rem 0rem;
+}
+
+p,li,td{
+    font-family:"Outfit";
+    color:var(--font-color);
+}
+
+li{
+    padding-inline-start:1rem;
+    margin:1.1rem 0rem;
+}
+
+ul,ol{
+    padding-inline-start: 1.5rem;
+}
+
+li::marker{
+    color:var(--font-color);
+    font-size:0.9em;
+}
+
+ol li::marker{
+    font-family: "Outfit";
+    font-size: 1em;
+    font-weight: bold;
+    color:var(--heading-color);
+}
+
+article{
+    display:flex;
+    flex-direction:column;
+    max-width: 100%;
+    background-color: var(--article-color);
+    padding:2.75rem;
+    border: solid var(--article-color) 0.1px;
+    border-radius: 1.5rem;
+}
+
+h3{
+    margin:0;
+    font-family: "Outfit";
+    font-weight: bold;
+    color:var(--prep-heading);
+}
+.prep{
+    background-color: var(--prep-color);
+    padding:1.5rem;
+    border-bottom:none;
+}
+
+hr{
+    border:none;
+    margin: 1.25rem 0rem;
+    border-bottom: solid var(--border-section) 0.1rem;
+    width:100%;
+    border-radius:0.5rem;
+}
+
+table{
+    width:100%;
+}
+
+td{
+    padding:0.75rem;
+    padding-inline-start: 2rem;
+    border-bottom: solid var(--border-section) 0.1rem;
+}
+
+.values{
+    font-family: "Outfit";
+    font-size: 1em;
+    font-weight: bold;
+    color:var(--heading-color);
+}
+
+footer{
+    position:absolute;
+    bottom:0;
+}
+
+@media screen and (max-width:375px){
+    body{
+        background-color: var(--article-color);
+        padding:0;
+    }
+    img{
+    margin: -3rem -3rem 1rem -3rem; 
+    width: calc(100% + 100px); 
+    max-width: none; 
+    display: block;
+    border-radius:none;
+    }
+}
+
+
