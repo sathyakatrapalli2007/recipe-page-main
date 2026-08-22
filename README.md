@@ -20,16 +20,13 @@ The page includes:
 
 ### Screenshot
 
-![Recipe Page Screenshot](preview.png)
+![Recipe Page Screenshot](/preview.png)
 
 ### Links
 
-* **Solution URL:** https://www.frontendmentor.io/solutions/your-solution-link
-* **Live Site URL:** https://your-live-site-url.com
-
+* **Solution URL:** https://sathyakatrapalli2007.github.io/recipe-page-main/
+* **Live Site URL:** https://sathyakatrapalli2007.github.io/recipe-page-main/
 ---
-
-## My Process
 
 ### Built With
 
@@ -91,7 +88,7 @@ I used AI primarily for guidance, debugging, and learning rather than having it 
 ## Author
 
 * **Frontend Mentor:** https://www.frontendmentor.io/profile/yourusername
-* **GitHub:** https://github.com/yourusername
+* **GitHub:** https://github.com/sathyakatrapalli2007
 
 ---
 
