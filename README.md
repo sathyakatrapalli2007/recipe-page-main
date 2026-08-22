@@ -20,9 +20,7 @@ The page includes:
 
 ### Screenshot
 
-![Recipe Page Screenshot](./screenshot.jpg)
-
-> Replace `screenshot.jpg` with a screenshot of your completed project.
+![Recipe Page Screenshot](preview.png)
 
 ### Links
 
